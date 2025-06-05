@@ -1,0 +1,6 @@
+I have processed the data in two ways--
+
+1)  In first approach, as chunk files have been uploaded mechanism Y also starts and some of the files are batched and processed. In this way the output will be different as 
+     different number of files will be batched and processed so it will give different output whenever the program runs
+
+2)  In 2nd approach the program will wait till all the chunks are uploaded and then it will combine the whole data at once and then the output will be fix and more accurate.
